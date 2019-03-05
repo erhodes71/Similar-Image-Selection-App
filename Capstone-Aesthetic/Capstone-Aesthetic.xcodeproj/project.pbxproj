@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C50DD22B2149ADF600D2F619 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C50DD22A2149ADF600D2F619 /* AppDelegate.m */; };
+		C50DD22E2149ADF600D2F619 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C50DD22D2149ADF600D2F619 /* ViewController.m */; };
+		C50DD2312149ADF600D2F619 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C50DD22F2149ADF600D2F619 /* Main.storyboard */; };
+		C50DD2332149ADF700D2F619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C50DD2322149ADF700D2F619 /* Assets.xcassets */; };
+		C50DD2362149ADF700D2F619 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C50DD2342149ADF700D2F619 /* LaunchScreen.storyboard */; };
+		C50DD2392149ADF700D2F619 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C50DD2382149ADF700D2F619 /* main.m */; };
+		C50DD2432149ADF700D2F619 /* Capstone_AestheticTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C50DD2422149ADF700D2F619 /* Capstone_AestheticTests.m */; };
+		C50DD24E2149ADF700D2F619 /* Capstone_AestheticUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C50DD24D2149ADF700D2F619 /* Capstone_AestheticUITests.m */; };
+		C50DD2652149AE4600D2F619 /* greenhouse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C50DD25B2149AE4500D2F619 /* greenhouse.jpg */; };
+		C50DD2662149AE4600D2F619 /* retro 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C50DD25C2149AE4500D2F619 /* retro 2.jpg */; };
+		C50DD2672149AE4600D2F619 /* skull.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C50DD25D2149AE4600D2F619 /* skull.jpg */; };
+		C50DD2682149AE4600D2F619 /* city1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C50DD25E2149AE4600D2F619 /* city1.jpg */; };
+		C50DD2692149AE4600D2F619 /* city 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C50DD25F2149AE4600D2F619 /* city 3.jpg */; };
+		C50DD26A2149AE4600D2F619 /* retro 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C50DD2602149AE4600D2F619 /* retro 1.jpg */; };
+		C50DD26B2149AE4600D2F619 /* city 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C50DD2612149AE4600D2F619 /* city 2.jpg */; };
+		C50DD26C2149AE4600D2F619 /* greenhouse 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C50DD2622149AE4600D2F619 /* greenhouse 3.jpg */; };
+		C50DD26D2149AE4600D2F619 /* skull2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C50DD2632149AE4600D2F619 /* skull2.jpg */; };
+		C50DD26E2149AE4600D2F619 /* greenhouse 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C50DD2642149AE4600D2F619 /* greenhouse 2.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C50DD23F2149ADF700D2F619 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C50DD21E2149ADF600D2F619 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C50DD2252149ADF600D2F619;
+			remoteInfo = "Capstone-Aesthetic";
+		};
+		C50DD24A2149ADF700D2F619 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C50DD21E2149ADF600D2F619 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C50DD2252149ADF600D2F619;
+			remoteInfo = "Capstone-Aesthetic";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C50DD2262149ADF600D2F619 /* Capstone-Aesthetic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Capstone-Aesthetic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C50DD2292149ADF600D2F619 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C50DD22A2149ADF600D2F619 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C50DD22C2149ADF600D2F619 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C50DD22D2149ADF600D2F619 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C50DD2302149ADF600D2F619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C50DD2322149ADF700D2F619 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C50DD2352149ADF700D2F619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C50DD2372149ADF700D2F619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C50DD2382149ADF700D2F619 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C50DD23E2149ADF700D2F619 /* Capstone-AestheticTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Capstone-AestheticTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C50DD2422149ADF700D2F619 /* Capstone_AestheticTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Capstone_AestheticTests.m; sourceTree = "<group>"; };
+		C50DD2442149ADF700D2F619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C50DD2492149ADF700D2F619 /* Capstone-AestheticUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Capstone-AestheticUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C50DD24D2149ADF700D2F619 /* Capstone_AestheticUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Capstone_AestheticUITests.m; sourceTree = "<group>"; };
+		C50DD24F2149ADF700D2F619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C50DD25B2149AE4500D2F619 /* greenhouse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = greenhouse.jpg; sourceTree = "<group>"; };
+		C50DD25C2149AE4500D2F619 /* retro 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "retro 2.jpg"; sourceTree = "<group>"; };
+		C50DD25D2149AE4600D2F619 /* skull.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skull.jpg; sourceTree = "<group>"; };
+		C50DD25E2149AE4600D2F619 /* city1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = city1.jpg; sourceTree = "<group>"; };
+		C50DD25F2149AE4600D2F619 /* city 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "city 3.jpg"; sourceTree = "<group>"; };
+		C50DD2602149AE4600D2F619 /* retro 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "retro 1.jpg"; sourceTree = "<group>"; };
+		C50DD2612149AE4600D2F619 /* city 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "city 2.jpg"; sourceTree = "<group>"; };
+		C50DD2622149AE4600D2F619 /* greenhouse 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "greenhouse 3.jpg"; sourceTree = "<group>"; };
+		C50DD2632149AE4600D2F619 /* skull2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skull2.jpg; sourceTree = "<group>"; };
+		C50DD2642149AE4600D2F619 /* greenhouse 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "greenhouse 2.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C50DD2232149ADF600D2F619 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C50DD23B2149ADF700D2F619 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C50DD2462149ADF700D2F619 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C50DD21D2149ADF600D2F619 = {
+			isa = PBXGroup;
+			children = (
+				C50DD2282149ADF600D2F619 /* Capstone-Aesthetic */,
+				C50DD2412149ADF700D2F619 /* Capstone-AestheticTests */,
+				C50DD24C2149ADF700D2F619 /* Capstone-AestheticUITests */,
+				C50DD2272149ADF600D2F619 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C50DD2272149ADF600D2F619 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C50DD2262149ADF600D2F619 /* Capstone-Aesthetic.app */,
+				C50DD23E2149ADF700D2F619 /* Capstone-AestheticTests.xctest */,
+				C50DD2492149ADF700D2F619 /* Capstone-AestheticUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C50DD2282149ADF600D2F619 /* Capstone-Aesthetic */ = {
+			isa = PBXGroup;
+			children = (
+				C50DD2612149AE4600D2F619 /* city 2.jpg */,
+				C50DD25F2149AE4600D2F619 /* city 3.jpg */,
+				C50DD25E2149AE4600D2F619 /* city1.jpg */,
+				C50DD2642149AE4600D2F619 /* greenhouse 2.jpg */,
+				C50DD2622149AE4600D2F619 /* greenhouse 3.jpg */,
+				C50DD25B2149AE4500D2F619 /* greenhouse.jpg */,
+				C50DD2602149AE4600D2F619 /* retro 1.jpg */,
+				C50DD25C2149AE4500D2F619 /* retro 2.jpg */,
+				C50DD25D2149AE4600D2F619 /* skull.jpg */,
+				C50DD2632149AE4600D2F619 /* skull2.jpg */,
+				C50DD2292149ADF600D2F619 /* AppDelegate.h */,
+				C50DD22A2149ADF600D2F619 /* AppDelegate.m */,
+				C50DD22C2149ADF600D2F619 /* ViewController.h */,
+				C50DD22D2149ADF600D2F619 /* ViewController.m */,
+				C50DD22F2149ADF600D2F619 /* Main.storyboard */,
+				C50DD2322149ADF700D2F619 /* Assets.xcassets */,
+				C50DD2342149ADF700D2F619 /* LaunchScreen.storyboard */,
+				C50DD2372149ADF700D2F619 /* Info.plist */,
+				C50DD2382149ADF700D2F619 /* main.m */,
+			);
+			path = "Capstone-Aesthetic";
+			sourceTree = "<group>";
+		};
+		C50DD2412149ADF700D2F619 /* Capstone-AestheticTests */ = {
+			isa = PBXGroup;
+			children = (
+				C50DD2422149ADF700D2F619 /* Capstone_AestheticTests.m */,
+				C50DD2442149ADF700D2F619 /* Info.plist */,
+			);
+			path = "Capstone-AestheticTests";
+			sourceTree = "<group>";
+		};
+		C50DD24C2149ADF700D2F619 /* Capstone-AestheticUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C50DD24D2149ADF700D2F619 /* Capstone_AestheticUITests.m */,
+				C50DD24F2149ADF700D2F619 /* Info.plist */,
+			);
+			path = "Capstone-AestheticUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C50DD2252149ADF600D2F619 /* Capstone-Aesthetic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C50DD2522149ADF700D2F619 /* Build configuration list for PBXNativeTarget "Capstone-Aesthetic" */;
+			buildPhases = (
+				C50DD2222149ADF600D2F619 /* Sources */,
+				C50DD2232149ADF600D2F619 /* Frameworks */,
+				C50DD2242149ADF600D2F619 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Capstone-Aesthetic";
+			productName = "Capstone-Aesthetic";
+			productReference = C50DD2262149ADF600D2F619 /* Capstone-Aesthetic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C50DD23D2149ADF700D2F619 /* Capstone-AestheticTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C50DD2552149ADF700D2F619 /* Build configuration list for PBXNativeTarget "Capstone-AestheticTests" */;
+			buildPhases = (
+				C50DD23A2149ADF700D2F619 /* Sources */,
+				C50DD23B2149ADF700D2F619 /* Frameworks */,
+				C50DD23C2149ADF700D2F619 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C50DD2402149ADF700D2F619 /* PBXTargetDependency */,
+			);
+			name = "Capstone-AestheticTests";
+			productName = "Capstone-AestheticTests";
+			productReference = C50DD23E2149ADF700D2F619 /* Capstone-AestheticTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C50DD2482149ADF700D2F619 /* Capstone-AestheticUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C50DD2582149ADF700D2F619 /* Build configuration list for PBXNativeTarget "Capstone-AestheticUITests" */;
+			buildPhases = (
+				C50DD2452149ADF700D2F619 /* Sources */,
+				C50DD2462149ADF700D2F619 /* Frameworks */,
+				C50DD2472149ADF700D2F619 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C50DD24B2149ADF700D2F619 /* PBXTargetDependency */,
+			);
+			name = "Capstone-AestheticUITests";
+			productName = "Capstone-AestheticUITests";
+			productReference = C50DD2492149ADF700D2F619 /* Capstone-AestheticUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C50DD21E2149ADF600D2F619 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Eric Rhodes";
+				TargetAttributes = {
+					C50DD2252149ADF600D2F619 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					C50DD23D2149ADF700D2F619 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = C50DD2252149ADF600D2F619;
+					};
+					C50DD2482149ADF700D2F619 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = C50DD2252149ADF600D2F619;
+					};
+				};
+			};
+			buildConfigurationList = C50DD2212149ADF600D2F619 /* Build configuration list for PBXProject "Capstone-Aesthetic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C50DD21D2149ADF600D2F619;
+			productRefGroup = C50DD2272149ADF600D2F619 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C50DD2252149ADF600D2F619 /* Capstone-Aesthetic */,
+				C50DD23D2149ADF700D2F619 /* Capstone-AestheticTests */,
+				C50DD2482149ADF700D2F619 /* Capstone-AestheticUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C50DD2242149ADF600D2F619 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C50DD26E2149AE4600D2F619 /* greenhouse 2.jpg in Resources */,
+				C50DD2662149AE4600D2F619 /* retro 2.jpg in Resources */,
+				C50DD2672149AE4600D2F619 /* skull.jpg in Resources */,
+				C50DD26D2149AE4600D2F619 /* skull2.jpg in Resources */,
+				C50DD26B2149AE4600D2F619 /* city 2.jpg in Resources */,
+				C50DD2362149ADF700D2F619 /* LaunchScreen.storyboard in Resources */,
+				C50DD2332149ADF700D2F619 /* Assets.xcassets in Resources */,
+				C50DD2682149AE4600D2F619 /* city1.jpg in Resources */,
+				C50DD26C2149AE4600D2F619 /* greenhouse 3.jpg in Resources */,
+				C50DD2692149AE4600D2F619 /* city 3.jpg in Resources */,
+				C50DD2652149AE4600D2F619 /* greenhouse.jpg in Resources */,
+				C50DD26A2149AE4600D2F619 /* retro 1.jpg in Resources */,
+				C50DD2312149ADF600D2F619 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C50DD23C2149ADF700D2F619 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C50DD2472149ADF700D2F619 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C50DD2222149ADF600D2F619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C50DD22E2149ADF600D2F619 /* ViewController.m in Sources */,
+				C50DD2392149ADF700D2F619 /* main.m in Sources */,
+				C50DD22B2149ADF600D2F619 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C50DD23A2149ADF700D2F619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C50DD2432149ADF700D2F619 /* Capstone_AestheticTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C50DD2452149ADF700D2F619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C50DD24E2149ADF700D2F619 /* Capstone_AestheticUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C50DD2402149ADF700D2F619 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C50DD2252149ADF600D2F619 /* Capstone-Aesthetic */;
+			targetProxy = C50DD23F2149ADF700D2F619 /* PBXContainerItemProxy */;
+		};
+		C50DD24B2149ADF700D2F619 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C50DD2252149ADF600D2F619 /* Capstone-Aesthetic */;
+			targetProxy = C50DD24A2149ADF700D2F619 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C50DD22F2149ADF600D2F619 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C50DD2302149ADF600D2F619 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C50DD2342149ADF700D2F619 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C50DD2352149ADF700D2F619 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C50DD2502149ADF700D2F619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C50DD2512149ADF700D2F619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C50DD2532149ADF700D2F619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G442MF557V;
+				INFOPLIST_FILE = "Capstone-Aesthetic/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Rhodes.Capstone-Aesthetic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C50DD2542149ADF700D2F619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G442MF557V;
+				INFOPLIST_FILE = "Capstone-Aesthetic/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Rhodes.Capstone-Aesthetic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C50DD2562149ADF700D2F619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G442MF557V;
+				INFOPLIST_FILE = "Capstone-AestheticTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Rhodes.Capstone-AestheticTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Capstone-Aesthetic.app/Capstone-Aesthetic";
+			};
+			name = Debug;
+		};
+		C50DD2572149ADF700D2F619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G442MF557V;
+				INFOPLIST_FILE = "Capstone-AestheticTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Rhodes.Capstone-AestheticTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Capstone-Aesthetic.app/Capstone-Aesthetic";
+			};
+			name = Release;
+		};
+		C50DD2592149ADF700D2F619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G442MF557V;
+				INFOPLIST_FILE = "Capstone-AestheticUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Rhodes.Capstone-AestheticUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Capstone-Aesthetic";
+			};
+			name = Debug;
+		};
+		C50DD25A2149ADF700D2F619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G442MF557V;
+				INFOPLIST_FILE = "Capstone-AestheticUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Rhodes.Capstone-AestheticUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Capstone-Aesthetic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C50DD2212149ADF600D2F619 /* Build configuration list for PBXProject "Capstone-Aesthetic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C50DD2502149ADF700D2F619 /* Debug */,
+				C50DD2512149ADF700D2F619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C50DD2522149ADF700D2F619 /* Build configuration list for PBXNativeTarget "Capstone-Aesthetic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C50DD2532149ADF700D2F619 /* Debug */,
+				C50DD2542149ADF700D2F619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C50DD2552149ADF700D2F619 /* Build configuration list for PBXNativeTarget "Capstone-AestheticTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C50DD2562149ADF700D2F619 /* Debug */,
+				C50DD2572149ADF700D2F619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C50DD2582149ADF700D2F619 /* Build configuration list for PBXNativeTarget "Capstone-AestheticUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C50DD2592149ADF700D2F619 /* Debug */,
+				C50DD25A2149ADF700D2F619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C50DD21E2149ADF600D2F619 /* Project object */;
+}
